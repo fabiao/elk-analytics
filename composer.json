@@ -11,13 +11,20 @@
         {
             "name": "Gabriele Coquillard",
             "email": "gabriele@elk-lab.com"
+        },
+        {
+            "name": "Fabio Di Francesco",
+            "email": "fabio.di.francesco@gmail.com"
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0",
-        "htmlburger/carbon-fields": "^3.6",
-        "illuminate/database": "^8.83",
-        "geoip2/geoip2": "~2.0",
-        "jenssegers/blade": "^1.4"        
+        "php": "^8.0",
+        "htmlburger/carbon-fields": "^3",
+        "illuminate/database": "^13",
+        "illuminate/view": "^13",
+        "illuminate/events": "^13",
+        "illuminate/filesystem": "^13",
+        "illuminate/config": "^13",
+        "geoip2/geoip2": "^3"
     }
 }

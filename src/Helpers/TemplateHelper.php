@@ -2,7 +2,7 @@
 
 namespace ELKLab\ElkAnalytics\Helpers;
 
-use Jenssegers\Blade\Blade;
+use ELKLab\ElkAnalytics\Helpers\Blade;
 
 /**
  * Template Helper

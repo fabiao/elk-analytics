@@ -1,6 +1,6 @@
 @php
-  use ELKLab\ELKAnalytics\Model\EventType;
-  use ELKLab\ELKAnalytics\Model\Event;
+  use ELKLab\ELKAnalytics\Models\EventType;
+  use ELKLab\ELKAnalytics\Models\Event;
   use ELKLab\ELKAnalytics\Helpers\FilterHelper;
   use Carbon\Carbon;
 
@@ -29,6 +29,7 @@
     const table = new Tabulator("#page-views-table", {
       data: data,
       layout: "fitColumns",
+      initialSort: [{ column: "date", dir: "desc" }],
       columns: [
         {
           title: "{!! __('Date', 'elk-analytics') !!}", 

@@ -1,12 +1,14 @@
 @php
-  use ELKLab\ELKAnalytics\Model\Event;
+  use ELKLab\ELKAnalytics\Models\Event;
   use ELKLab\ELKAnalytics\Helpers\FilterHelper;
   use Carbon\Carbon;
 
   $wp_locale = get_locale();
 @endphp
 
-<canvas id="analyticsChart"></canvas>
+<div style="position:relative;width:100%;aspect-ratio:2;max-height:600px;">
+  <canvas id="analyticsChart"></canvas>
+</div>
 
 <script>
   jQuery(function($) {
@@ -56,6 +58,7 @@
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
           legend: {
             position: 'top',

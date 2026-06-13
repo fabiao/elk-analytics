@@ -1,6 +1,6 @@
 <?php
 
-namespace ELKLab\ElkAnalytics\Helpers;
+namespace ELKLab\ELKAnalytics\Helpers;
 
 use Illuminate\Config\Repository;
 use Illuminate\Container\Container;

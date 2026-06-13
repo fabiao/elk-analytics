@@ -1,14 +1,9 @@
 <?php
 
-namespace ELKLab\ELKAnalytics\Model;
+namespace ELKLab\ELKAnalytics\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-/**
- * Event model
- * 
- * @since 1.0.0
- */
 class Event extends Model {
     protected $table = 'elk_analytics_events';
 
@@ -18,7 +13,7 @@ class Event extends Model {
         'event_details',
         'url',
         'referrer',
-        'post_id'
+        'post_id',
     ];
 
     public function user() {

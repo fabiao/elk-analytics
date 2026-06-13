@@ -1,14 +1,9 @@
 <?php
 
-namespace ELKLab\ELKAnalytics\Model;
+namespace ELKLab\ELKAnalytics\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-/**
- * User model
- * 
- * @since 1.0.0
- */
 class User extends Model {
     protected $table = 'elk_analytics_users';
 
@@ -21,7 +16,7 @@ class User extends Model {
         'os_version',
         'device',
         'country',
-        'session_id'
+        'session_id',
     ];
 
     public function events() {

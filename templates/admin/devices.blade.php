@@ -1,6 +1,6 @@
 @php
-  use ELKLab\ELKAnalytics\Model\Event;
-  use ELKLab\ELKAnalytics\Model\User;
+  use ELKLab\ELKAnalytics\Models\Event;
+  use ELKLab\ELKAnalytics\Models\User;
   use ELKLab\ELKAnalytics\Helpers\FilterHelper;
   
   $filter = new FilterHelper('elk-analytics-devices', $_GET['min_date'] ?? null, $_GET['max_date'] ?? null);

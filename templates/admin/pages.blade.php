@@ -1,6 +1,6 @@
 @php
-  use ELKLab\ELKAnalytics\Model\Event;
-  use ELKLab\ELKAnalytics\Model\EventType;
+  use ELKLab\ELKAnalytics\Models\Event;
+  use ELKLab\ELKAnalytics\Models\EventType;
   use ELKLab\ELKAnalytics\Helpers\FilterHelper;
   
   $filter = new FilterHelper('elk-analytics-pages', $_GET['min_date'] ?? null, $_GET['max_date'] ?? null);

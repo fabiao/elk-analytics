@@ -16,13 +16,13 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "htmlburger/carbon-fields": "^3",
-        "illuminate/database": "^13",
-        "illuminate/view": "^13",
-        "illuminate/events": "^13",
-        "illuminate/filesystem": "^13",
-        "illuminate/config": "^13",
+        "illuminate/database": "^10",
+        "illuminate/view": "^10",
+        "illuminate/events": "^10",
+        "illuminate/filesystem": "^10",
+        "illuminate/config": "^10",
         "geoip2/geoip2": "^3"
     }
 }
